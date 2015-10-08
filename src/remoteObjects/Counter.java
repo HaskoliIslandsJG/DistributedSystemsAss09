@@ -3,6 +3,7 @@ package remoteObjects;
 import java.io.Serializable;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
+import remoteObjects.CounterRemoteInterface;
 
 public class Counter extends UnicastRemoteObject implements CounterRemoteInterface,Serializable{
 	private int count = 0;
