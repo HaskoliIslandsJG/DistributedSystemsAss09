@@ -8,12 +8,4 @@ Server : launch rmiregistry
 java -cp ./ -Djava.rmi.server.codebase=file:///./ -Djava.security.policy=../policy.txt Server 
 
 2. Start on same machine client using (adjust classpath)
-java -cp ./  -Djava.security.policy=../policy.txt ClientSample localhost
-
-
-### Answer for part 2 :	###
-
-If no server is running, we can see the client does not react.
-This is what was expected using a UDP-based communication where the communication only takes place from the sender to the receiver.
-The sender does not receives any confirmation whatever the message has been received or not.
-
+java -cp ./  -Djava.security.policy=../policy.txt Client localhost
