@@ -1,5 +1,5 @@
-Github repo : https://github.com/jeje42/HI-Distributed-Systems.git
-
+Github repo : https://github.com/HaskoliIslandsJG/DistributedSystemsAss09.git
+ 
 Both cases : cd into the bin directory.
 
 Server : launch rmiregistry
